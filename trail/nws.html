@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewsToday.com</title>
+    <link rel="stylesheet" href="nws.css" />
+  </head>
+  <body>
+    <div id="nv">
+      <nav>
+        <ul>
+          <li id="logo">
+            <img
+              id="im"
+              src="https://img.icons8.com/?size=96&id=wO7uLQ2bXGP-&format=png"
+            />
+          </li>
+          <li class="bs" id="fin">Finance</li>
+          <li class="bs" id="pol">Politics</li>
+          <li class="bs" id="tech">Technology</li>
+          <li id="ip">
+            <input type="text" placeholder="e.g cricket" id="inp" /><button
+              id="btn"
+            >
+              Search
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="ld"></div>
+    <main>
+      <div class="news-cont cont flex" id="cardscontainer"></div>
+    </main>
+    <template id="tem">
+      <div class="news">
+        <div class="header">
+          <img id="nwsimg" src="https://via.placeholder.com/400x200" alt="" />
+        </div>
+        <div class="content">
+          <h2 id="title">Title</h2>
+          <h6 id="source">11-08-2024</h6>
+          <p id="matter">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+            accusantium, excepturi minima tempora a unde aspernatur deleniti
+            ullam numquam repudiandae molestias exercitationem similique quos
+            libero nemo ducimus neque beatae quaerat?
+          </p>
+        </div>
+      </div>
+    </template>
+    <script src="nws.js"></script>
+  </body>
+</html>
